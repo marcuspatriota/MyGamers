@@ -19,6 +19,6 @@ class ConsoleTableViewCell: UITableViewCell {
 
     func configConsoleCell(_ console: Console){
         titleConsole.text = console.name
-        imageView?.image = console.icon as? UIImage
+        iconConsole?.image = console.icon as? UIImage
     }
 }
